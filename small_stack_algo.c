@@ -6,7 +6,7 @@
 /*   By: loris <loris@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 13:37:53 by loris             #+#    #+#             */
-/*   Updated: 2022/12/22 21:42:35 by loris            ###   ########.fr       */
+/*   Updated: 2023/02/07 19:39:46 by loris            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,9 +65,7 @@ void	simple_solve1(t_list **a_p, t_list **b_p, uint len, uint pos)
 void	simple_solve(t_list **a_p, t_list **b_p, uint len)
 {
 	t_list	*a;
-	uint	pos;
 
-	pos = len;
 	if (len == 2 || len == 3)
 	{
 		if (len == 3)
@@ -83,5 +81,5 @@ void	simple_solve(t_list **a_p, t_list **b_p, uint len)
 	if (check_if_solve(*a_p) == 0)
 		return ;
 	if (len > 3)
-		simple_solve1(a_p, b_p, len, pos);
+		simple_solve1(a_p, b_p, len, len);
 }

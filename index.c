@@ -6,7 +6,7 @@
 /*   By: loris <loris@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 12:58:50 by loris             #+#    #+#             */
-/*   Updated: 2022/12/22 14:07:07 by loris            ###   ########.fr       */
+/*   Updated: 2023/02/07 19:17:32 by loris            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,8 +91,8 @@ void	index_list(t_list **a, int *list, uint len)
 
 	sorted_list = simple_sort(list, len, 0, 0);
 	indexed = get_index(list, sorted_list, len);
-	apply_index(a, indexed, len - 1);
 	free(list);
 	free(sorted_list);
+	apply_index(a, indexed, len - 1);
 	free(indexed);
 }

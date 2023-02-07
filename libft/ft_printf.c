@@ -6,12 +6,11 @@
 /*   By: loris <loris@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/18 12:51:33 by loris             #+#    #+#             */
-/*   Updated: 2022/05/09 12:10:52 by loris            ###   ########.fr       */
+/*   Updated: 2023/02/07 20:30:37 by loris            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// has to include cspdiuxX%
 
 size_t	ft_printchar(int c)
 {
@@ -68,10 +67,3 @@ int	ft_printf(const char *s, ...)
 	va_end(args);
 	return (ret);
 }
-
-// has to include cspdiuxX%
-
-// Each invocation of the va_arg macro modifies ap
-// to point to the next variable argument.
-
-// https://youtu.be/S-ak715zIIE?t=185
