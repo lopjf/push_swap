@@ -6,7 +6,7 @@
 #    By: loris <loris@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/07 14:54:38 by lpenelon          #+#    #+#              #
-#    Updated: 2022/10/26 20:46:16 by loris            ###   ########.fr        #
+#    Updated: 2023/02/07 18:49:47 by loris            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c ft_split.c \
 					ft_putstr_fd.c  ft_strjoin.c ft_strmapi.c ft_strtrim.c \
 					ft_striteri.c ft_putnbru_fd.c \
 					ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
-					ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c \
+					ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c \
 					ft_printf.c ft_printf_funcs1.c ft_printf_funcs2.c get_file.c \
 					ft_swap_char.c
 
