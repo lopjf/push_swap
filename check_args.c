@@ -75,7 +75,10 @@ int	check_double(int *list, uint len)
 		while (j < len)
 		{
 			if (list[i] == list[j])
+			{
+				free(list);
 				return (0);
+			}
 			j++;
 		}
 		i++;
